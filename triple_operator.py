@@ -2,5 +2,5 @@ import random
 
 auto = ['vesta', 'cherry', 'mersedes', 'toyota', 'audi', 'lamborghini']
 zhenya = random.choice(auto)
-print(zhenya)
-print ('da') if (zhenya=='vesta' or zhenya == 'toyota') else print('net')
+result = 'Машина под санкцией' if 'audi' in auto else 'все норм'
+print('res:\n', result)
